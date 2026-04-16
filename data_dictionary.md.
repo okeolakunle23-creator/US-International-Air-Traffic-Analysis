@@ -1,0 +1,14 @@
+# 📖 Data Dictionary - Aviation Analytics
+
+This dictionary explains the variables used to analyze international flight patterns and passenger volumes.
+
+| Column Name | Data Type | Description |
+| :--- | :--- | :--- |
+| **Operating_Airline** | String | The airline actually flying the aircraft (e.g., Delta, Emirates). |
+| **GEO_Region** | String | Global geographic area (e.g., Middle East, Europe, Central America). |
+| **Activity_Period** | Date/YYYYMM | The month and year the data was recorded. |
+| **Passenger_Count** | Integer | Total number of passengers on that specific route/period. |
+| **Price_Category** | String | Classification of the airline (Low-Fare vs. Other). |
+| **Terminal / Boarding_Area** | String | Specific airport location where the activity occurred. |
+
+*Note: All passenger counts were aggregated to the monthly level to identify seasonal trends.*
